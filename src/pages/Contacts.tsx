@@ -1,3 +1,3 @@
 export default function Contacts() {
-  return <h1>Контакты</h1>;
+  return <h1 className="contacts__title">Контакты</h1>;
 }

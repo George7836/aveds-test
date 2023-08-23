@@ -34,7 +34,9 @@ export default function Main() {
         Место для получения медицинской помощи
       </h1>
       <div className="main-page__buttons">
-        <button className="button">Войти</button>
+        <Link to="/account">
+          <button className="button">Войти</button>
+        </Link>
         <Link to="/contacts">
           <button className="button--outlined">Контакты</button>
         </Link>

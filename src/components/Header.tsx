@@ -12,7 +12,7 @@ export default function Header() {
         <Link className="nav__contacts" to="/contacts">
           Контакты
         </Link>
-        <Link className="nav__login" to="/login">
+        <Link className="nav__login" to="/account">
           <button className="nav__btn btn-reset">Войти</button>
         </Link>
       </nav>
