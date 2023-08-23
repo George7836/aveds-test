@@ -78,10 +78,17 @@
     padding: 0 12px;
     width: 100%;
     margin-bottom: 15px;
-    outline-color: $secondary;
 
     &:last-of-type {
       margin-bottom: 30px;
+    }
+
+    &:valid {
+      outline-color: $font-primary;
+    }
+
+    &:invalid {
+      outline-color: $secondary;
     }
   }
 }

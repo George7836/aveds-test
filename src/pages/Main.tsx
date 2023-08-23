@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { HeartIcon, StethoscopeIcon, CancerIcon } from "../icons";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
+import { useAppContext } from "../context/AppContext";
 
 type Card = {
   icon: ReactNode;
@@ -28,15 +29,17 @@ const cards: Card[] = [
 ];
 
 export default function Main() {
+  const { handleModal } = useAppContext();
+
   return (
     <main className="main-page">
       <h1 className="main-page__title">
         Место для получения медицинской помощи
       </h1>
       <div className="main-page__buttons">
-        <Link to="/account">
-          <button className="button">Войти</button>
-        </Link>
+        <button className="button" onClick={handleModal}>
+          Войти
+        </button>
         <Link to="/contacts">
           <button className="button--outlined">Контакты</button>
         </Link>
