@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aveds-test/static/css/main.41959764.css",
+    "main.js": "/aveds-test/static/js/main.5e7bbf89.js",
+    "static/media/logo.svg": "/aveds-test/static/media/logo.252f2e556232b6ee284baa69b9ffbae6.svg",
+    "static/media/cancer.svg": "/aveds-test/static/media/cancer.fd9df22b2cd74813307232146bae9145.svg",
+    "static/media/stethoscope.svg": "/aveds-test/static/media/stethoscope.be259d7a439ad0f7c3958f87ba991e35.svg",
+    "static/media/cancel.svg": "/aveds-test/static/media/cancel.53f73dd7fa53213d9fd1780164769e70.svg",
+    "static/media/heart.svg": "/aveds-test/static/media/heart.d6d5131a5db0df59c083e5cafb843849.svg",
+    "index.html": "/aveds-test/index.html",
+    "main.41959764.css.map": "/aveds-test/static/css/main.41959764.css.map",
+    "main.5e7bbf89.js.map": "/aveds-test/static/js/main.5e7bbf89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41959764.css",
+    "static/js/main.5e7bbf89.js"
+  ]
+}
