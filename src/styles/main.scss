@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import "./base/normalize";
+@import "./vars";
+@import "./components/Header";
+@import "./components/Button";
+@import "./pages/Main";
+@import "./components/Card";
+@import "./pages/Contacts";
+@import "./pages/PersonalAccount";
+@import "./components/Login";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.wrapper {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: $backgroud-color;
+}
+
+.container {
+  max-width: 1064px;
+  padding: 80px 10px;
+  margin: 0 auto;
+
+  @media (max-width: 650px) {
+    padding: 39px 10px;
+  }
+}

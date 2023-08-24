@@ -1,0 +1,17 @@
+.button {
+  padding: 15px 40px;
+  background-color: $secondary;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+
+  &.button--outlined {
+    background-color: $backgroud-color;
+    color: $secondary;
+    outline: 1px solid $secondary;
+  }
+}

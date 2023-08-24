@@ -1,0 +1,50 @@
+.header {
+  padding: 20px 70px;
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1200px) {
+    padding: 20px 10px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    column-gap: 58px;
+
+    @media (max-width: 850px) {
+      column-gap: 20px;
+    }
+
+    @media (max-width: 850px) {
+      column-gap: 10px;
+    }
+
+    &__contacts {
+      text-decoration: none;
+      color: $font-secondary;
+      font-size: 15px;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    &__btn {
+      padding: 8px 60px;
+      border: 2px solid $secondary;
+      color: $secondary;
+      font-size: 20px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      border-radius: 7px;
+
+      @media (max-width: 850px) {
+        padding: 8px 40px;
+      }
+
+      @media (max-width: 650px) {
+        padding: 6px 20px;
+      }
+    }
+  }
+}
