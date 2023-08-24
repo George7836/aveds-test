@@ -2,11 +2,32 @@
   &__greetings {
     font-size: $h1;
     margin: 51px 0 35px 0;
+
+    @media (max-width: 1072px) {
+      font-size: 42px;
+      margin-top: 70px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 28px;
+      margin-top: 29px;
+    }
   }
 
   &__buttons {
     display: flex;
     align-items: center;
     column-gap: 10px;
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+      row-gap: 10px;
+
+      button,
+      a {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
   }
 }

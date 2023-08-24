@@ -39,4 +39,8 @@
   max-width: 1064px;
   padding: 80px 10px;
   margin: 0 auto;
+
+  @media (max-width: 650px) {
+    padding: 39px 10px;
+  }
 }

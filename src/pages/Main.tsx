@@ -3,6 +3,7 @@ import { HeartIcon, StethoscopeIcon, CancerIcon } from "../icons";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 import { useAppContext } from "../context/AppContext";
+import PersonalAccount from "./PersonalAccount";
 
 type Card = {
   icon: ReactNode;
@@ -30,6 +31,11 @@ const cards: Card[] = [
 
 export default function Main() {
   const { handleModal } = useAppContext();
+  const { status } = useAppContext();
+
+  if (status.authorized) {
+    return <PersonalAccount />;
+  }
 
   return (
     <main className="main-page">
@@ -41,7 +47,7 @@ export default function Main() {
           Войти
         </button>
         <Link to="/contacts">
-          <button className="button--outlined">Контакты</button>
+          <button className="button button--outlined">Контакты</button>
         </Link>
       </div>
       <div className="main-page__cards">

@@ -30,7 +30,9 @@ export default function PersonalAccount() {
           Выйти из аккаунта
         </button>
         <Link to="/contacts">
-          <button className="button--outlined">Перейти в контакты</button>
+          <button className="button button--outlined">
+            Перейти в контакты
+          </button>
         </Link>
       </div>
     </div>

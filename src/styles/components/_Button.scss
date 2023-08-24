@@ -9,16 +9,9 @@
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
 
-  &--outlined {
-    padding: 15px 40px;
-    font-size: 14px;
-    border-radius: 5px;
-    font-weight: 700;
+  &.button--outlined {
     background-color: $backgroud-color;
     color: $secondary;
-    border: 0;
     outline: 1px solid $secondary;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
   }
 }

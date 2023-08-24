@@ -5,10 +5,22 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 1200px) {
+    padding: 20px 10px;
+  }
+
   .nav {
     display: flex;
     align-items: center;
     column-gap: 58px;
+
+    @media (max-width: 850px) {
+      column-gap: 20px;
+    }
+
+    @media (max-width: 850px) {
+      column-gap: 10px;
+    }
 
     &__contacts {
       text-decoration: none;
@@ -25,6 +37,14 @@
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       border-radius: 7px;
+
+      @media (max-width: 850px) {
+        padding: 8px 40px;
+      }
+
+      @media (max-width: 650px) {
+        padding: 6px 20px;
+      }
     }
   }
 }
